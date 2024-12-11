@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://joohunhyun.github.io/al-folio/sitemap.xml
+Sitemap: https://joohunhyun.github.io/sitemap.xml
