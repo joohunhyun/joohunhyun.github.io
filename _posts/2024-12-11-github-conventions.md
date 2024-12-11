@@ -1,6 +1,6 @@
 ---
 layout: post
-title: github conventions
+title: [ENG] Github Commit Message Conventions
 date: 2024-12-11
 description: gitub commmit message convetions
 tags: commit message conventions
