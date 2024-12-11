@@ -10,11 +10,11 @@ featured: true
 
 ## **Commit Message Guidelines**
 
-Commit messages should follow the format below:
-
-```
+Commit messages should follow the following format : ```
 Activity: Commit Message
 ```
+
+
 
 - Activities
     - `int`: only for initial commit
