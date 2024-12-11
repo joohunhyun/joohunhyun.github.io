@@ -14,9 +14,9 @@ Lecture notes from Stanford CS230
 
 TL;DR
 
-### Andrew Ng’s method
+#### Andrew Ng’s method
 
-<논문 리딩 방법론>
+논문 리딩 방법론
 
 1. Title/abstract/figures를 읽어본다
 2. Intro/conclusion/figures를 읽고, 나머지는 훑어본다
@@ -30,7 +30,7 @@ TL;DR
 - What can you use yourself?
 - What other references do you want to follow?
 
-### Andrew Ng - 논문 읽는 방법
+#### Andrew Ng - 논문 읽는 방법
 
 1. 정보 수집 방법
 
@@ -57,9 +57,9 @@ TL;DR
 
 ## 4. 코드 연습
 
-**1. 오픈소스를 다운받아서 실행해본다.**
+1. 오픈소스를 다운받아서 실행해본다.
 
-**2. 처음부터 직접 구현해본다.**
+2. 처음부터 직접 구현해본다.
 
 ## 5. 커리어 조언 - 채용 담당자가 중요시하는 요소
 

@@ -8,14 +8,11 @@ categories: sample-posts
 featured: true
 ---
 
-## **Commit Message Guidelines**
+#### **Commit Message Guidelines**
 
 Commit messages should follow the following format : ```
 Activity: Commit Message
-```
-
-
-
+``'
 - Activities
     - `int`: only for initial commit
     - `doc`: changes document or comment
