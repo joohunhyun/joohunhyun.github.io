@@ -4,14 +4,14 @@ title: (ENG) Github Commit Message Conventions
 date: 2024-12-11
 description: gitub commmit message convetions
 tags: commit message conventions
-categories: sample-posts
+categories: study
 featured: true
 ---
 
 #### **Commit Message Guidelines**
 
 Commit messages should follow the following format : ```
-Activity: Commit Message
+Activity: Commit Message    
 ``'
 - Activities
     - `int`: only for initial commit
