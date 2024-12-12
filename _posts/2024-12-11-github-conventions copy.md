@@ -5,7 +5,7 @@ date: 2024-12-11
 description: gitub commmit message convetions
 tags: commit message conventions
 categories: study
-featured: true
+featured: false
 ---
 
 #### **Commit Message Guidelines**

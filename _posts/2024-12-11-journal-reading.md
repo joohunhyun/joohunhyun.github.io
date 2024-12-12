@@ -5,7 +5,7 @@ date: 2024-12-11
 description: 논문 리뷰 방법
 tags: papers reading papers 논문리뷰
 categories: tools
-featured: true
+featured: false
 ---
 
 <aside>
