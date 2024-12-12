@@ -8,7 +8,7 @@ categories: ML
 featured: false
 ---
 
-#### **Backpropagation**
+## **Backpropagation**
 
 [Video Refrence](https://www.youtube.com/watch?v=tIeHLnjs5U8)
 
