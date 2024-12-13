@@ -3,7 +3,7 @@ layout: post
 title: (ENG) Github Commit Message Conventions
 date: 2024-12-11
 description: gitub commmit message convetions
-tags: commit message conventions
+tags: tools github git
 categories: study
 featured: false
 ---

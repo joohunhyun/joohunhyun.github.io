@@ -1,10 +1,10 @@
 ---
 layout: post
-title: (KOR) 논문 리뷰 방법
+title: (KOR) 논문 리뷰 방법론
 date: 2024-12-11
 description: 논문 리뷰 방법
-tags: papers reading papers 논문리뷰
-categories: tools
+tags: papers reading 논문리뷰
+categories: study
 featured: false
 ---
 

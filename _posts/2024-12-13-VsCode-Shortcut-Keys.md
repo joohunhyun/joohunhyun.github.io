@@ -3,16 +3,14 @@ layout: post
 title: (ENG) VsCode Shortcut Keys(MacOS)
 date: 2024-12-13
 description:
-tags: 
-categories: tools
+tags: tools
+categories: study
 typograms: true
 pretty_table: true
 ---
 
 ## **Visual Studio Code Shortcut Keys(MacOS)**
 ---
-
-<br>
 
 💡익숙해진 단축키는 문서에서 삭제
 

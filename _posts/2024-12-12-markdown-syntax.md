@@ -3,8 +3,8 @@ layout: post
 title: (KOR) 마크다운 문법 
 date: 2024-12-12
 description: 마크다운 문법
-tags: markdown, 마크다운
-categories: tools
+tags: markdown, 마크다운, tools
+categories: study
 featured: false
 ---
 

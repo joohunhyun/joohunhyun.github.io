@@ -3,8 +3,8 @@ layout: post
 title: (ENG) Brief History of AI
 date: 2024-12-13
 description:
-tags: 
-categories: ML, DL
+tags: ML, DL
+categories: study
 typograms: true
 ---
 

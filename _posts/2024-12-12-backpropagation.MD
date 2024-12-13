@@ -4,7 +4,7 @@ title: (ENG) Backpropagation
 date: 2024-12-12
 description: backpropagation
 tags: backpropagation ML
-categories: ML
+categories: study
 featured: false
 ---
 
