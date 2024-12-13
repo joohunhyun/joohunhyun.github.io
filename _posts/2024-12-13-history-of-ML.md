@@ -30,7 +30,7 @@ typograms: true
 #### 1940s–1950s - Early Foundations
 Discovery: Boolean logic and the Turing Test
 
-Problem: How can mankind formalize reasoning and test machine intelligence?
+Problem: How can we formalize reasoning and test machine intelligence?
 
 Solution: Alan Turing introduced the concept of a machine capable of computation (Turing Machine) and proposed the Turing Test as a way to determine if a machine exhibits intelligent behavior.
 
