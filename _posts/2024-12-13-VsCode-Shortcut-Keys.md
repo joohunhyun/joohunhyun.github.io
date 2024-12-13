@@ -16,8 +16,17 @@ pretty_table: true
 
 💡원본은 .md 파일에 존안
 
+---
+
+**Table of contents**
+- [**Visual Studio Code Shortcut Keys(MacOS)**](#visual-studio-code-shortcut-keysmacos)
+    - [VScode Shortcuts](#vscode-shortcuts)
+    - [VSCode git status](#vscode-git-status)
+
+
 <br>
 
+#### VScode Shortcuts
 
 | Action                         | Shortcut                   |
 |-------------------------------|--------------------------|
@@ -29,6 +38,13 @@ pretty_table: true
 | Show Integrated Terminal       | `⌃ + \`                    |
 | Close Window                   | `⌘ + W`                    |
 | Quit VSCode                    | `⌘ + Q`                    |
+|                                |                             |
+| **GitHub Copilot**             |                             |
+| Accept Suggestion              | `Tab`                      |
+| Next Suggestion                | `Option(Alt) + ]`          |
+| Previous Suggestion            | `Option(Alt) + [`          |
+| Show Suggestions               | `Ctrl + Enter`             |
+| Approve Suggestion             | `Cmd + ←` or `Cmd + →`     |
 |                                |                             |
 | **File Management**            |                             |
 | Open File                      | `⌘ + O`                    |
@@ -81,13 +97,28 @@ pretty_table: true
 |                                |                             |
 | **Terminal**                   |                             |
 | Create New Terminal            | `⌘ + ⇧ + ``                |
-| Split Terminal                 | `⌘ + ``                    |
+| Split Terminal                 | `⌘ + \``                   |
 | Kill Terminal                  | `⌘ + K` (inside terminal)  |
 | Navigate Terminals             | `⌃ + ←` or `⌃ + →`         |
 |                                |                             |
 | **Version Control**            |                             |
 | Open Source Control            | `⇧ + ⌘ + G`                |
 | Commit Changes                 | `⌘ + Enter` (in source control) |
+
+<br>
+
+#### VSCode git status
+
+| Code | Status      | Description                                                                 |
+|------|-------------|-----------------------------------------------------------------------------|
+| A    | Added       | This is a new file that has been added to the repository                   |
+| M    | Modified    | An existing file has been changed                                          |
+| D    | Deleted     | A file has been deleted                                                   |
+| U    | Untracked   | The file is new or has been changed but has not been added to the repository yet |
+| C    | Conflict    | There is a conflict in the file                                            |
+| R    | Renamed     | The file has been renamed                                                 |
+| S    | Submodule   | In repository exists another subrepository                                |
+| T    | Typechange  | The file changed from symlink to regular file, or vice versa              |
 
 
 

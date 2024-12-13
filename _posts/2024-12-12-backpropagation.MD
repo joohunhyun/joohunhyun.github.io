@@ -12,4 +12,11 @@ featured: false
     
 [Video Refrence](https://www.youtube.com/watch?v=tIeHLnjs5U8)
 
-backpropagation
+
+#### Before delving in..
+
+1. Activation function : 
+
+$$f(z) = 1/1+e$$
+
+#### What is Backpropagation?
