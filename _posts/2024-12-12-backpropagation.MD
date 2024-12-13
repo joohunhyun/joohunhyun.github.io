@@ -7,8 +7,6 @@ tags: backpropagation, DL
 categories: study
 featured: false
 ---
-
-## **Backpropagation**
     
 [Video Refrence](https://www.youtube.com/watch?v=tIeHLnjs5U8)
 
@@ -19,4 +17,4 @@ featured: false
 
 $$f(z) = 1/1+e$$
 
-#### What is Backpropagation?
+#### What is Backpropagation?   

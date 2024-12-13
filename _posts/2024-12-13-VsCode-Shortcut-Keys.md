@@ -8,10 +8,6 @@ categories: study
 typograms: true
 pretty_table: true
 ---
-
-## **Visual Studio Code Shortcut Keys(MacOS)**
----
-
 💡익숙해진 단축키는 문서에서 삭제
 
 💡원본은 .md 파일에 존안
@@ -19,9 +15,8 @@ pretty_table: true
 ---
 
 **Table of contents**
-- [**Visual Studio Code Shortcut Keys(MacOS)**](#visual-studio-code-shortcut-keysmacos)
-    - [VScode Shortcuts](#vscode-shortcuts)
-    - [VSCode git status](#vscode-git-status)
+- [VScode Shortcuts](#vscode-shortcuts)
+- [VSCode git status](#vscode-git-status)
 
 
 <br>

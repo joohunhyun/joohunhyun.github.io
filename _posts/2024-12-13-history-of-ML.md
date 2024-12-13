@@ -8,22 +8,18 @@ categories: study
 typograms: true
 ---
 
-## **Brief History of AI**
----
-
 **Table of Contents**
-- [**Brief History of AI**](#brief-history-of-ai)
-    - [1940s–1950s - Early Foundations](#1940s1950s---early-foundations)
-    - [1950s–1960s - Discovery of Neural Networks](#1950s1960s---discovery-of-neural-networks)
-    - [1970s–1980s - AI's First Winter(인공지능의 첫 겨울) \& Backpropagation(역전파기법)](#1970s1980s---ais-first-winter인공지능의-첫-겨울--backpropagation역전파기법)
-    - [1980s–1990s - Sequence Processing and Memory](#1980s1990s---sequence-processing-and-memory)
-    - [1997 - Long Short-Term Memory(LSTM) (Hochreiter \& Schmidhuber)](#1997---long-short-term-memorylstm-hochreiter--schmidhuber)
-    - [1980s–1990s - Visual Recognition and Spatial Data](#1980s1990s---visual-recognition-and-spatial-data)
-    - [2012 - Deep Learning Revolution](#2012---deep-learning-revolution)
-    - [2014 - Generative Adversarial Networks(GAN) (Goodfellow)](#2014---generative-adversarial-networksgan-goodfellow)
-    - [2017 - Attention Mechanisms and Transformers (Vaswani et al.)](#2017---attention-mechanisms-and-transformers-vaswani-et-al)
-    - [2020s - Multi-Modal AI and Real-Time Applications](#2020s---multi-modal-ai-and-real-time-applications)
-    - [TL;DR](#tldr)
+- [1940s–1950s - Early Foundations](#1940s1950s---early-foundations)
+- [1950s–1960s - Discovery of Neural Networks](#1950s1960s---discovery-of-neural-networks)
+- [1970s–1980s - AI's First Winter(인공지능의 첫 겨울) \& Backpropagation(역전파기법)](#1970s1980s---ais-first-winter인공지능의-첫-겨울--backpropagation역전파기법)
+- [1980s–1990s - Sequence Processing and Memory](#1980s1990s---sequence-processing-and-memory)
+- [1997 - Long Short-Term Memory(LSTM) (Hochreiter \& Schmidhuber)](#1997---long-short-term-memorylstm-hochreiter--schmidhuber)
+- [1980s–1990s - Visual Recognition and Spatial Data](#1980s1990s---visual-recognition-and-spatial-data)
+- [2012 - Deep Learning Revolution](#2012---deep-learning-revolution)
+- [2014 - Generative Adversarial Networks(GAN) (Goodfellow)](#2014---generative-adversarial-networksgan-goodfellow)
+- [2017 - Attention Mechanisms and Transformers (Vaswani et al.)](#2017---attention-mechanisms-and-transformers-vaswani-et-al)
+- [2020s - Multi-Modal AI and Real-Time Applications](#2020s---multi-modal-ai-and-real-time-applications)
+- [TL;DR](#tldr)
 
 ---
 
