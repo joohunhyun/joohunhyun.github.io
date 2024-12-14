@@ -21,8 +21,6 @@ Activity: Commit Message
     - `rmv`: remove existing file or directory
     - `doc`: changes to document or comment
 
-<br>
-
 - Example
     - `int: initial commit`
     - `add: prettier and eslint`
