@@ -49,7 +49,8 @@ How can we make predictions to the value of $$\eta$$$ without performing all cal
 
 Gradient Descent Method
 
-![Derivative of a function](image.png)
+[Derivative of a function](path="assets/img/image.png")
+
 
 Sometimes the derivative is unknown (not derivable)
 
@@ -65,6 +66,10 @@ However, some problems like XOR are not linearly separable.
 b) Absence of Hidden Layers
 
 The perceptron lacks hidden layers. Without them, it cannot model complex relationships between input features.
+
+c) Learning is not Incremental
+
+Learning is not incremental over time - meaning it has no retention of previous learning.
 
 c) Inability to Learn Nonlinear Functions
 
