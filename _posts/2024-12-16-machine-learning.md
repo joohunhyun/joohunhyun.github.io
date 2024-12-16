@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (KOR) Feature Selection, Extraction, and Ensamble Methods
+title: (ENG) Feature Selection, Extraction, and Ensamble Methods
 date: 2024-12-16
 description: 
 tags: ML
@@ -65,14 +65,29 @@ Types of Ensamble Methods:
 2. Bagging
 3. Stacking
 
-##### 1. Boosting
+##### 1. Boosting :Ada-Boosting
 
 
+##### 2. Bagging(stands for: Boostrap Aggrevating)
+Bagging은 앙상블 기법들 가운데 가장 간단한 방법이다(taking a vote, or weighted vote). Decision Tree의 경우, training set에 따라서 그 구조가 매우 민감하게 바뀐다. 이런 경우에는 1) training set을 여러 개 만들고 2) 각각 모델을 만들어서 3) voting을 한다. In numerical prediction,  taking the average of all predictions.
 
-##### 2. Bagging
-- 가장 간단한 방법 - taking a vote(or weighted vote)
-- In classification : 
-- In numerical prediction : taking the average of all predictions
+Breiman(1996) noticed that an ensamble of trees improved when the trees differed significantly from each other, today called **Random Forest**. Bagging was able to create a diverse ensamble of classifiers by introducing randomness into the learning alg's input, which resulted in **better results**. In a DT, picking the best option can be randomized by picking one of the N best options at random instead of a signle winner (ex: top 3 options, top 5 options)
 
+**Methods of picking different "winners" in bagging**
+1. elite : picking the best one
+2. randomization : picking 1 randomly from top 5 candidates
+3. stochastic : top5 중에서 룰렛으로 고르는 방법 (weighted)
 
 ##### 3. Stacking
+Stacking is used on models built by different learning algorithsm. For example, stacking can be used when you want to form a classifier for a given dataset with A) deicision tree inducer B) naive bayes learnner and C) instance based learning scheme.
+
+Stacking involves a **metalearner** that replaces the voting procedure of boosing and bagging. Metalearner is used to discover how to best combine the output of the base learners to determine which classifiers are the reliable ones.
+
+- base learners : level-0 models
+- meta learner : level-1 model
+- predictions from base models are inputs to the meta learner. (funnel처럼 위에서 아래로 내려온다)
+
+TL;DR : Stackin combines predictions of base learners using metalearner(NOT voting)
+
+
+![alt text](posts_/image.png)
