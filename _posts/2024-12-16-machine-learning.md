@@ -87,7 +87,4 @@ Stacking involves a **metalearner** that replaces the voting procedure of boosin
 - meta learner : level-1 model
 - predictions from base models are inputs to the meta learner. (funnel처럼 위에서 아래로 내려온다)
 
-TL;DR : Stackin combines predictions of base learners using metalearner(NOT voting)
-
-
-![alt text](posts_/image.png)
+TL;DR : Stacking combines predictions of base learners using metalearner(NOT voting)
