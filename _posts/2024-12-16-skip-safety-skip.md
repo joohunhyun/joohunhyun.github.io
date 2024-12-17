@@ -1,18 +1,57 @@
 ---
 layout: post
-title: (KOR) 연구실 안전교육 배속하는 방법
-date: 2024-12-16
+title: (ENG) MLP, DNN
+date: 2024-12-17
 description: 
-tags: tools
+tags: ML
 categories: study
 featured: false
 ---
 
-202412월 기준, 해당 방법이 가장 편하다. 다른 방법들은 모두 막혔다. 중간에 "깜짝 퀴즈"도 있으니 유의해야한다.
+- Perceptron -> delta rule
+- MLP (2~3 layers) -> backpropagation
+- DNN (~10 layers) -> using ReLU instead of sigmoid
 
-**크롬**에서 연구실 안전교육 동영상 재생 후 개발자모드 콘솔 `F12`에 해당 코드 붙여넣기:
+#### MLP's problem
 
-```
-document.querySelector('video').playbackRate = 15;
-```
+- Major issue of designing MLP is how 
+- As the number of hidden layers increase, the sigmoid function's relatively small gradient repeatedly gets multiplied. -> this makes the gradient close to 0, and the weights are not updated (**vanishing gradient problem**)
+
+**Solution to this problem**
+
+1. Using a ReLU Function
+
+The Rectified Linear Unit (ReLU) function is defined as:
+
+$$f(x)=max(0,x)$$
+
+ReLU has a gradient of 
+1
+1 for positive inputs, which prevents the gradient from shrinking excessively as it is propagated through the network.
+
+Advantages of ReLU:
+
+- Avoids vanishing gradients: The gradient remains constant for positive inputs, ensuring that weights continue to be updated.
+- Computational efficiency: ReLU is simpler to compute than sigmoid or tanh.
+- Sparsity: It introduces sparsity in activations (many outputs are zero), which can improve generalization.
+
+
+However, ReLU can suffer from the dying ReLU problem, where neurons become inactive (outputting zero) due to large negative gradients. Variants like Leaky ReLU and Parametric ReLU address this issue.
+
+2. Xavier Initialization
+
+Proper weight initialization is crucial for mitigating vanishing or exploding gradients. The Xavier initialization (or Glorot initialization) ensures that the variance of activations and gradients is maintained across layers.
+
+Benefits:
+- Prevents vanishing/exploding gradients by keeping the variance of inputs and outputs consistent across layers.
+- Helps the network converge faster.
+
+3. Batch Normalization
+
+Batch Normalization (BatchNorm) normalizes the inputs to each layer by adjusting the mean and variance of the activations during training.
+
+Benefits
+- Improves gradient flow: Normalization reduces internal covariate shift, allowing deeper networks to train effectively.
+- Stabilizes learning: It reduces sensitivity to initialization and learning rate.
+- Acts as regularization: BatchNorm has a slight regularization effect, reducing the need for dropout in some cases.
 
