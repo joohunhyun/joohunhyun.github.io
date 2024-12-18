@@ -8,6 +8,7 @@ categories: study
 featured: false
 ---
 
+
 #### **Backpropagation**
 
 Backpropagation is a method used in neural networks to adjust the weights and biases by minimizing the error (or loss) through gradient descent. It works by propagating the error backward through the network, layer by layer.
