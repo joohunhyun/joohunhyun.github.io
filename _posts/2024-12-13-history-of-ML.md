@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (ENG) Brief History of AI
-date: 2024-12-13
+date: 2024-12-13    
 description:
 tags: ML, DL
 categories: study
