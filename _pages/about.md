@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
+    # <p>555 your office number</p>
+    # <p>123 your address street</p>
+    # <p>Seoul, South Korea</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -22,19 +22,30 @@ social: false # includes social icons at the bottom of the page
 
 #### **Hello**
 
-I am a sophomore at Korea University Department of Computer Science and Engineering. 
+I am an undergraduate student currently in my sophomore year at Korea University, pursuing a degree in the Department of Computer Science and Engineering. My primary interest lies in Natural Language Processing (NLP) and its real-world applications in enhancing communication between machines and humans.
 
-I am interested in applications of natural language processing.
+I also maintain a tech blog in both English and Korean, with posts tagged as `(ENG)` for English and `(KOR)` for Korean to separate the content.
+
+For my full Curriculum Vitae, please refer to the [CV page](https://joohunhyun.github.io/cv/).
+
+
+
 
 
 #### **Contact Information**
-- [Github](https://github.com/joohunhyun)
-- Email
-  - Academic : joohunhyun [at] korea [dot] ac [dot] kr
-  - Personal : joohunhyun [at] gmail [dot] com
+
+**👨🏻‍💻 GitHub**
+
+- [Visit my GitHub](https://github.com/joohunhyun)
+
+**📧 Email** 
+- **Academic**: [joohunhyun [at] korea.ac.kr](mailto:joohunhyun@korea.ac.kr)  
+- **Personal**: [joohunhyun [at] gmail.com](mailto:joohunhyun@gmail.com)
 
 
+<br>
 
+<br>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
