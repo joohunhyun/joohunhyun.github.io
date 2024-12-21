@@ -37,7 +37,7 @@ For my full Curriculum Vitae, please refer to the [CV page](https://joohunhyun.g
 **👨🏻‍💻 GitHub**
 - [Visit my GitHub](https://github.com/joohunhyun)
 
-**📧 Email**\
+**📧 Email**
 - **Academic**: [joohunhyun [at] korea.ac.kr](mailto:joohunhyun@korea.ac.kr)  
 - **Personal**: [joohunhyun [at] gmail.com](mailto:joohunhyun@gmail.com)
 
