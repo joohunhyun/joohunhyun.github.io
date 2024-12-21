@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://joohunhyun.github.io
 
-Sitemap: https://joohunhyun.github.io/sitemap.xml
