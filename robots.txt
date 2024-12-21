@@ -2,6 +2,6 @@
 permalink: /robots.txt
 ---
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://junia3.github.io/
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
