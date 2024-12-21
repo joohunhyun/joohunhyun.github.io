@@ -49,8 +49,6 @@ How can we make predictions to the value of $$\eta$$$ without performing all cal
 
 Gradient Descent Method
 
-[Derivative of a function](path="assets/img/image.png")
-
 
 Sometimes the derivative is unknown (not derivable)
 
