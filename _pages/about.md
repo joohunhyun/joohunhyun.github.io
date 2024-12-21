@@ -30,12 +30,10 @@ For my full Curriculum Vitae, please refer to the [CV page](https://joohunhyun.g
 
 
 
-
-
 #### **Contact Information**
 
 **👨🏻‍💻 GitHub**
-- [Visit my GitHub](https://github.com/joohunhyun)
+- [GitHub Redirect](https://github.com/joohunhyun)
 
 **📧 Email**
 - **Academic**: [joohunhyun [at] korea.ac.kr](mailto:joohunhyun@korea.ac.kr)  
@@ -44,7 +42,7 @@ For my full Curriculum Vitae, please refer to the [CV page](https://joohunhyun.g
 
 <br>
 
-<br>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjoohunhyun.github.io&count_bg=%23DDDDDD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
