@@ -3,5 +3,5 @@ permalink: /robots.txt
 ---
 User-agent: *
 Allow: /
-Sitemap: https://junia3.github.io/
+Sitemap: https://joohunhyun.github.io
 
