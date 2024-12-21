@@ -3,7 +3,7 @@ layout: post
 title: (ENG) Backpropagation 
 date: 2024-12-12
 description: backpropagation
-tags: backpropagation, DL
+tags: DL
 categories: study
 featured: false
 ---
