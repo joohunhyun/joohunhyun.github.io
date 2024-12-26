@@ -2,7 +2,7 @@
 layout: post
 title: (KOR) 논문 리뷰 방법론
 date: 2024-12-11
-description: 논문 리뷰 방법
+description:
 tags: papers
 categories: study
 featured: false
