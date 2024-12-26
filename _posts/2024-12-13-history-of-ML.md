@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (ENG) Brief History of AI
+title: (ENG) Development of Artificial Intelligence
 date: 2024-12-13    
 description:
 tags: ML, DL

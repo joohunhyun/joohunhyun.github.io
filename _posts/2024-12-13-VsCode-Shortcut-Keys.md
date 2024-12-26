@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (ENG) VsCode Shortcut Keys(MacOS)
+title: (KOR) VsCode Shortcut Keys(MacOS)
 date: 2024-12-13
 description:
 tags: tools
