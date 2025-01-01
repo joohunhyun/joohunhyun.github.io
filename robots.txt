@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://joohunhyun.github.io
-
+Sitemap: https://joohunhyun.github.io/my-sitemap.xml
