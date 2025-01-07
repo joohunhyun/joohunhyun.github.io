@@ -29,6 +29,11 @@ conda deactivate venv이름
 conda env list
 ```
 
+가상환경 삭제
+```
+가상환경 삭제 conda env remove -n venv이름
+```
+
 파이썬 버전 변경
 ```
 conda install python=3..11
