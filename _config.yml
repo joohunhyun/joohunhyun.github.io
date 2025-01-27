@@ -303,7 +303,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["ML", "DL", "papers", "tools"] # these tags will be displayed on the front page of your blog
+display_tags: ["NLP", "DL", "ML", "papers", "tools"] # these tags will be displayed on the front page of your blog
 display_categories: ["study", "personal"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
