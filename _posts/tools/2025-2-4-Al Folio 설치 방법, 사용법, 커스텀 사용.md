@@ -1,47 +1,46 @@
 ---
 layout: distill
 title: (KOR) Github al-folio 설치부터 블로그 테마 변경까지
-date: 2024-2-4
+date: 2025-2-4
 description: 
 tags: tools
 categories: study
 featured: false
-toc:  
-  sidebar: left
 ---
 
 ## 서론
 
-테크 블로그를 운영하기 위한 사람들에게
+필자는 Al Folio와 GitHub Pages를 활용하여 테크 블로그를 운영하는 것을 추천한다. 우선, Al folio는 블로그 운영자에게 높은 자율성을 제공하며, 사용자가 원하는 대로 페이지를 추가할 수 있는 장점이 있다. 또한, LaTeX 문법, Jupyter ipynb 파일, Mermaid Diagram 렌더링 등 다양한 형식의 언어를 블로그에 포함시킬 수 있어, 수학 공식을 많이 사용하고 코드를 자주 첨부해야 하는 인공지능 분야의 진로를 희망하고 테크 운영을 희망하고 있는 이들에게 특히 적합하다고 생각한다. 이번 블로그 글에서는 Al Folio를 처음 사용하는 예비 블로그 운영자들을 위해 단계별 사용법을 안내할 예정이다.
 
-순서대로 작성해뒀으면,
-
+1. Al Folio 설치 방법
+2. 블로그 사용법 및 커스텀 방법
+3. CV 수정 방법
+4. 자잘한 꿀팁들
 
 ## 설치 방법
 
 1. [Al-Folio Github Page](https://github.com/alshedivat/al-folio)에서 forking을 통해 레포를 복제한다. 
    - **중요!** 사이트 URL을 `<your-github-username>.github.io`형식으로 배포하려면 레포 이름을 URL과 동일하게 설정해야 한다.
-   - 편의상 <your-github-username>.github.io로 레포 이름을 설정하는 것을 권장한다.
+   - 편의상 `<your-github-username>.github.io` 형식으로 레포 이름을 설정하는 것을 권장한다.
   
 2. GitHub Actions 설정 변경  
-   - 레포에서 `Settings -> Actions -> General`로 이동해 `Workflow permissions`을 `Read and write`로 변경한다.  
+   - forking을 완료한 레포에서 `Settings -> Actions -> General`로 이동해 `Workflow permissions`을 `Read and write`로 변경한다.  
 
 3. `_config.yml` 파일 수정  
    - `_config.yml` 파일에서 `url`을 `https://<your-github-username>.github.io`로 설정한다.
    - `baseurl`은 비워두되 삭제하지 않는다.  
 
-4. **GitHub Pages 배포 설정**  
+4. GitHub Pages 배포 설정 
    - `Actions` 탭에서 `Deploy site` 작업이 완료될 때까지 기다린다 (~4분 소요).  
    - `Settings -> Pages -> Build and deployment`에서 `Source`를 `Deploy from a branch`로 설정하고 `gh-pages`를 선택한다.  
    - `pages-build-deployment` 작업이 완료될 때까지 기다린다 (~45초 소요).  
 
-5. **사이트 확인 및 로컬 복사**  
+5. 사이트 접속 확인
    - 브라우저에서 `https://<your-github-username>.github.io`에 접속하여 정상 작동하는지 확인한다.  
    - 이후 레포를 로컬에 클론하여 커스터마이징을 시작한다.
-
-```sh
-   git clone git@github.com:<your-username>/<your-repo-name>.git
-```
+   ```sh
+      git clone git@github.com:<your-username>/<your-repo-name>.git
+   ```
 
 ## navbar 페이지 제거
 
@@ -98,8 +97,8 @@ def get_arxiv_abstract(arxiv_id):
 
 **PDF형식의 CV만 렌더링하는 방법**
 
-`root/_pages/cv.md`에서 상단의 tag 정보를 제외한 나머지 부분을 주석처리한다.
 
+1. `root/_pages/cv.md`에서 상단의 tag 정보를 제외한 나머지 부분을 주석처리한다.
 ```
 ---
 layout: cv
@@ -113,18 +112,16 @@ cv_pdf:
 코드 주석 처리
 --- -->
 ```
-`root/assets/pdf` 디렉토리에 나의 CV를 추가한다.
+2. `root/assets/pdf` 디렉토리에 나의 CV를 추가한다.
 
-`root/_layouts/cv.liquid`에서도 상단의 tag 정보를 제외한 나머지 부분을 주석처리하고, 다음 코드를 입력한다. 이때, `MY_CV.pdf` 부분은 이전 단계에서 추가한 PDF 형식의 CV 파일 이름과 일치해야 한다. 이를 통해 CV 페이지가 올바르게 렌더링될 수 있도록 할 수 있다.
+3. `root/_layouts/cv.liquid`에서도 상단의 tag 정보를 제외한 나머지 부분을 주석처리하고, 다음 코드를 입력한다. 이때, `MY_CV.pdf` 부분은 이전 단계에서 추가한 PDF 형식의 CV 파일 이름과 일치해야 한다. 이를 통해 CV 페이지가 올바르게 렌더링될 수 있도록 할 수 있다.
+   ```
+   ---
+   layout: default
+   ---
+   <div class="post">
 
+   <object data="../assets/pdf/MY_CV.pdf#pagemode=none" width="750" height="1000" type='application/pdf'></object>
 
-```
----
-layout: default
----
-<div class="post">
-
-<object data="../assets/pdf/MY_CV.pdf#pagemode=none" width="750" height="1000" type='application/pdf'></object>
-
-</div>
-```
+   </div>
+   ```
