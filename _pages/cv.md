@@ -4,10 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: Joohun_Hyun_CV.pdf
+cv_pdf:
 ---
-
-
 <!-- ---
 layout: cv
 permalink: /cv/
