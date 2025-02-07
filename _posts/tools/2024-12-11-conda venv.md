@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: (KOR) 아나콘다 venv 설정
 date: 2024-12-7
 description:
@@ -8,7 +8,7 @@ categories: study
 featured: false
 ---
 
-### 가상환경 관련
+## 1. 가상환경 관련
 
 가상환경 만들기
 ```
@@ -48,9 +48,9 @@ python --version
 
 <br>
 
-### 디버깅 관련
+## 2. 디버깅 관련
 
-#### 1. ModuleNotFound Error
+### 2.1 ModuleNotFound Error
 
 가끔 pip이나 conda를 사용하여 패키지를 설치했음에도 불구하고 'Module not found' 오류가 발생하는 경우가 있다. 이 경우, PATH 설정에 문제가 있을 확률이 높다. 가상환경의 PATH를 올바르게 설정하면 이 문제를 해결할 수 있다.
 

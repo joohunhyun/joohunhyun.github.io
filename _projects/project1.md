@@ -13,8 +13,9 @@ mermaid:
 
 ## Introduction
 
+서울대 자연어처리 랩실의 DAG LLM에 적용할 AI Agent를 연구했습니다. 
+
 ## Contribution
-- 크롤링 로직 작성
 
 ## Agentic AI Implementation Process
 
@@ -85,6 +86,8 @@ flowchart LR
     9a --> 9b --> 10
 
 ```
+
+## 
 
 ## TL;DR
 

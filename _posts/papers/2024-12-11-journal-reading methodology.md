@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: (KOR) 논문 리뷰 방법론
 date: 2024-12-11
 description:
@@ -7,18 +7,12 @@ tags: papers
 categories: study
 featured: false
 ---
+```
+Lecture notes from Stanford CS230 course
+```
 
-`Lecture notes from Stanford CS230 course`
 
-
-**Table of Contents**
-- [1) 논문을 읽는 단계](#1-논문을-읽는-단계)
-- [2) 커리어 조언 - 채용 담당자가 중요시하는 요소](#2-커리어-조언---채용-담당자가-중요시하는-요소)
-- [3) TL;DR](#3-tldr)
-
----
-
-#### 1) 논문을 읽는 단계
+## 1) 논문을 읽는 단계
 
 1. 정보 수집
 - 트위터
@@ -43,21 +37,22 @@ featured: false
 - 오픈소스를 다운받아서 실행해본다.
 - 밑바닥부터 직접 구현해본다.
 
-#### 2) 커리어 조언 - 채용 담당자가 중요시하는 요소
+## 2) 커리어 조언 - 채용 담당자가 중요시하는 요소
 - ML 관련 전공지식
 - 코딩 능력
 - Meaningful work (의미있는 프로젝트)
 - Open source (github에 코드 게시)
 - 인턴쉽
 
-#### 3) TL;DR
- **A. 논문을 읽는 순서**
+## 3) TL;DR
+
+### **3.1 논문을 읽는 순서**
 1. Title/abstract/figures를 읽어본다
 2. Intro/conclusion/figures를 읽고, 나머지는 훑어본다
 3. 수식은 넘어가거나 훑어본다
 4. 논문을 처음부터 끝까지 읽어본다 (이해가 안되는 부분은 넘어간다)
 
-**B. 논문을 읽은 후에 해야할 질문 4가지**
+### **3.2 논문을 읽은 후에 해야할 질문 4가지**
 - What did the author try to accomplish?
 - What were key elements?
 - What can you use yourself?
