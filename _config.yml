@@ -7,10 +7,7 @@ first_name: JooHun
 middle_name: # middle name or initial
 last_name: Hyun
 email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Hi, I'm Joohun, with a primary interest in Natural Language Processing (NLP). I run a tech blog in both English and Korean, tagging posts as (ENG) for English and (KOR) for Korean.
-안녕하세요, 영어와 한국어로 기술 블로그를 운영하고 있는 현주헌입니다.
-
+description: > # the ">" symbol means to ignore newlines until "footer_text:" Hi, I'm Joohun, with a primary interest in Natural Language Processing (NLP). I run a tech blog in both English and Korean, tagging posts as (ENG) for English and (KOR) for Korean. 안녕하세요, 영어와 한국어로 기술 블로그를 운영하고 있는 현주헌입니다.
 footer_text: 
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
