@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: "2025 SNU NLP Lab Winter Internship"
+title: "(작성중)2025 SNU NLP Lab Winter Internship"
 description: 2025 서울대학교 자연어처리 연구실 활동 정리
 img: assets/img/29.jpg
 importance: 4
@@ -13,11 +13,12 @@ mermaid:
 
 ## Introduction
 
-서울대 자연어처리 랩실의 DAG LLM에 적용할 AI Agent를 연구했습니다. 
+이번 동계 인턴에서는 서울대 자연어처리 랩실의 DAG LLM에 적용할 AI Agent를 구현하는 업무를 맡았다. 인턴은 총 6명으로, 3달이 남짓한 기간동안 돌아가면서 랩미팅 때 발표를 했다.
 
-## Contribution
 
-## Agentic AI Implementation Process
+인턴 생활을 하면서 생각보다 시간이 많이 남아서 스탠포드 자연어처리 강의인 cs224n을 함께 공부하고 정리했다.
+
+## Implementation
 
 
 ```mermaid
@@ -86,6 +87,18 @@ flowchart LR
     9a --> 9b --> 10
 
 ```
+
+## My Contribution
+
+
+### crawler.py
+
+크롤러를 핸들러 형식으로 작성했다.
+
+정규식 필터링을 사용해서
+
+### 발표
+
 
 ## 
 
